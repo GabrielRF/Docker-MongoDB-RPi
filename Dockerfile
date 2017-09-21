@@ -1,5 +1,5 @@
 FROM resin/rpi-raspbian
-MAINTAINER gabrielrf
+MAINTAINER alphanet
 # Originally made by: https://github.com/matteoredaelli/docker-mongodb-rpi
 
 # Install required packages
