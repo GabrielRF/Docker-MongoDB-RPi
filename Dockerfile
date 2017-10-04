@@ -3,9 +3,9 @@ MAINTAINER gabrielrf
 # Originally made by: https://github.com/matteoredaelli/docker-mongodb-rpi
 
 # Install required packages
-RUN apt-get update && apt-get -y dist-upgrade
-RUN apt-get install -y --no-install-suggests mongodb
-RUN rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get -y dist-upgrade && \
+    apt-get install -y --no-install-suggests mongodb && \
+    rm -rf /var/lib/apt/lists/*
 
 # Volumes
 VOLUME ["/docker-shares"]
