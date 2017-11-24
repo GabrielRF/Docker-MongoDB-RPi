@@ -2,11 +2,11 @@
 
 ##### Dockerfile originally written by: https://github.com/matteoredaelli/docker-mongodb-rpi
 
-===
+---
 
 ##### This image was tested on a RaspberryPi3 as MongoDB oficial image didn't work.
 
-===
+---
 
 ## Docker build
 
