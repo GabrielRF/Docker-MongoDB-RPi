@@ -27,7 +27,7 @@ curl -ssl https://get.docker.com | sh
 ## Docker run
 
 ```
-docker run -d -v /usr/local/bin/mongo:/data/db -p 27017:27017 --name mongodb gabrielrf/docker-mongodb-rpi
+docker run -d -v /usr/local/bin/mongo:/data/db -p 27017:27017 --name mongodb gabrielrf/docker-mongodb-rpi --log-opt max-size=10m --log-opt max-file=3 --restart:always
 ```
 `-d`: Run as a daemon
 
