@@ -4,8 +4,8 @@ MAINTAINER gabrielrf
 
 # Install required packages
 RUN apt-get update && apt-get -y dist-upgrade && \
-    apt-get install -y --no-install-suggests mongodb && \
-    rm -rf /var/lib/apt/lists/*
+    apt-get install -y --no-install-suggests mongodb # && \
+    # rm -rf /var/lib/apt/lists/*
 
 # Volumes
 VOLUME ["/docker-shares"]
