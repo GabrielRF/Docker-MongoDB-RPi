@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian
+FROM balenalib/raspberrypi3
 MAINTAINER gabrielrf
 # Originally made by: https://github.com/matteoredaelli/docker-mongodb-rpi
 
